@@ -21,6 +21,9 @@ body {
     padding: 50px;
 }
 
+/* Selects the first nav li element after .container
+    when .show-nav  is actived
+*/
 .container.show-nav + nav li {
     transform: translateX(0);
     transition-delay: 0.3s;
@@ -98,6 +101,7 @@ nav ul li i {
     margin-right: 10x;
 }
 
+/*  for steps alignment */
 nav ul li + li {
     margin-left: 15px;
     transform: translateX(-150%);
