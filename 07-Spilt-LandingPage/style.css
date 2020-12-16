@@ -73,14 +73,14 @@ h1 {
     overflow: hidden;
 }
 
-.split.left{
+.split.left {
     left: 0;
     background: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/ps5-1-1591910417.jpg?crop=1xw:0.9047619047619048xh;center,top&resize=1200:*);
     background-repeat: no-repeat;
     background-size: cover;
 } 
 
-.split.left::before{
+.split.left::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -95,7 +95,7 @@ h1 {
     background-size: cover;
 }
 
-.split.right::before{
+.split.right::before {
     content: '';
     position: absolute;
     width: 100%;
